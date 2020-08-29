@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jitang/jitang",
+    "pages/yingyu/yingyu"
+  ],
+  "requiredBackgroundModes": ["audio", "location"],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/1.png",
+      "selectedIconPath": "images/2.png",
+      "text": "毒鸡汤"
+    },
+    {
+      "pagePath": "pages/jitang/jitang",
+      "iconPath": "images/3.png",
+      "selectedIconPath": "images/4.png",
+      "text": "好鸡汤"
+    },
+    {
+      "pagePath": "pages/yingyu/yingyu",
+      "iconPath": "images/5.png",
+      "selectedIconPath": "images/6.png",
+      "text": "英语角"
+    }
+  ]
+},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "来碗热汤",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

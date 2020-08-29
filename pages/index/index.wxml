@@ -1,0 +1,9 @@
+
+<canvas canvas-id="myCanvas" class="canvas"></canvas>
+<view class="view_box">
+<text class='txt' selectable="true" bindlongtap="copy_text">{{jitang}}</text>
+<button class='Scancode1' bindtap="shuaxin">再来一碗</button>
+<button class='Scancode2' bindtap="play_music">随机一曲</button>
+</view>
+
+
